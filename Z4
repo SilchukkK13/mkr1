@@ -1,0 +1,24 @@
+/*
+   Name:Project 1.4
+   Author:Kostya Silchuk, group 109.
+   Description:Control work Module N:1 / variant 13
+*/
+   #include <iostream>
+   #include <math.h>
+   #include <string>
+    using namespace std;
+    int main()  
+	{
+	int a[15]={7,8,9,10,11,12,13,14,15,16,17,18,19,20,21};
+	int nmin,nmax,sum,dif;
+	nmin=7;
+	nmax=21;
+	cin>>nmin>>nmax;
+	cout<<"to enter nmax="<<nmax<<endl;
+	cout<<"to enter nmin="<<nmin<<endl;
+	sum=nmin+nmax;
+	dif=nmax-nmin;
+	cout<<"Result sum="<<sum<<endl;
+	cout<<"Result dif="<<dif<<endl;
+	return 0;
+}
