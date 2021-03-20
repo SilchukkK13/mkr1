@@ -1,0 +1,22 @@
+/*
+   Name:Project 1.1
+   Author:Kostya Silchuk, group 109.
+   Description:Control work Module N:1 / variant 13
+*/
+   #include <iostream>
+    #include <math.h>
+    using namespace std;
+    int main() 
+
+{    
+	float a,b,x,R,m,n,log,cos;
+    cout<<"to enter a="<<endl;
+	cout<<"to enter b="<<endl;
+	cout << "to enter x="<<endl;
+	cin>>a>>b>>x;
+	R= m+n;
+	m=a/(x-a);
+    n=(pow(b,x)+pow(cos,3))/((pow(log,3)*a)+4.5);
+	cout<<"result:"<<R<<endl;
+	return 0;
+	}
