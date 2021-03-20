@@ -1,0 +1,29 @@
+/*
+   Name:Project 1.2
+   Author:Kostya Silchuk, group 109.
+   Description:Control work Module N:1 / variant 13
+*/
+   #include <iostream>
+    #include <math.h>
+    using namespace std;
+    int main(int argc, char** argv) 
+{ 
+  int d,s,dt,cost,t;
+   int day=7;
+   cout << "to enter time:"<<endl;
+   cout <<"to enter s:"<<endl;
+   cout <<"to enter Day:"<<endl;
+   cout <<"to enter call duration:"<<endl;
+   cin >> t>>s>>d>>dt;
+  { if(8<t<22)if(d=6,d=7)
+      cout << "cost 90 percent: "<<s-10<<endl;
+   else
+  cout << "cost 100 percent:"<<s<<endl;}
+ { if (8>t>22)if(d=6,d=7)
+     cout<<"cost 70 percent"<<s-30<<endl;
+   else
+   cout << "cost 80 percent:"<<s-20<<endl;}
+   s = s*dt;
+    cout << "Result="<<s<<endl;
+return 0;
+}
